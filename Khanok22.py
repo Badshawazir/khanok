@@ -1590,7 +1590,7 @@ def opsi_detect(uiz,pw):
 				print('\r'+garis+'%s terdapat %s%s '%(P,K,opsii.text))
 	except Exception as c:
 		print("\r %s*--> %s|%s • %s"%(K,uiz,pw,tahun(uiz)))
-		print('\r'+garis+'%s can't check the option... check login on fb lite/mbasic '%(M))
+
 		open('CP/'+cpz,'a').write(uiz+'|'+pw+'\n')
 		cp+=1
 		
